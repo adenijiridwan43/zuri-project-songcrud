@@ -37,10 +37,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-
-    # this is for my musicsapp
     'musicsapp' ,
-]
+    'rest_framework'
+    ]
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
